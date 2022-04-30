@@ -1,0 +1,19 @@
+{
+    "name": "imac-12/nanmvc",
+    "autoload": {
+        "psr-4": {
+            "Mvcnan\\": "src/",
+            "App\\": "App"
+        }
+    },
+    "authors": [
+        {
+            "name": "Bfabien99",
+            "email": "91257945+Bfabien99@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.4",
+        "vlucas/phpdotenv": "^5.4"
+    }
+}
