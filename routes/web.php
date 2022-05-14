@@ -1,11 +1,10 @@
 <?php
 
 use Mvcnan\Http\Route;
+use App\controllers\HomeController;
 
 Route::get('/',function(){
-    return 'ok en get';
+    echo 'ok en get';
 });
 
-Route::post('/',function(){
-    return 'ok en post';
-});
+Route::get('/index',[HomeController::class,'index']);
